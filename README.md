@@ -17,9 +17,13 @@ Frameworks e bibliotecas utilizados:
 -retrofit2
 
 -moshi
+
 -glide
+
 -navigation
+
 -safeargs
+
 -parcelize
 
 
