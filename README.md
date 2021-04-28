@@ -14,16 +14,16 @@ Aplicativo Android nativo de uma pizzaria com as seguintes funções:
 
 Frameworks e bibliotecas utilizados:
 
--retrofit2
+- retrofit2
 
--moshi
+- moshi
 
--glide
+- glide
 
--navigation
+- navigation
 
--safeargs
+- safeargs
 
--parcelize
+- parcelize
 
 
