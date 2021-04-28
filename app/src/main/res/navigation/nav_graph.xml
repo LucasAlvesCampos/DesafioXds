@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/loginFragment">
+
+
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.desafiopizza.fragments.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_loginFragment_to_listaPizzasFragments"
+            app:destination="@id/listaPizzasFragments" />
+    </fragment>
+    <fragment
+        android:id="@+id/listaPizzasFragments"
+        android:name="com.example.desafiopizza.fragments.ListaPizzasFragments"
+        android:label="fragment_lista_pizzas_fragments"
+        tools:layout="@layout/fragment_lista_pizzas_fragments" >
+        <action
+            android:id="@+id/action_listaPizzasFragments_to_detalhesPizzaFragment"
+            app:destination="@id/detalhesPizzaFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detalhesPizzaFragment"
+        android:name="com.example.desafiopizza.fragments.DetalhesPizzaFragment"
+        android:label="fragment_detalhes_pizza"
+        tools:layout="@layout/fragment_detalhes_pizza" >
+        <argument android:name="detalhesPizza"
+            app:argType="com.example.desafiopizza.network.Pizza"
+            app:nullable="false"/>
+        <action
+            android:id="@+id/action_detalhesPizzaFragment_to_finalizarPedidoFragment"
+            app:destination="@id/finalizarPedidoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/finalizarPedidoFragment"
+        android:name="com.example.desafiopizza.fragments.FinalizarPedidoFragment"
+        android:label="fragment_finalizar_pedido"
+        tools:layout="@layout/fragment_finalizar_pedido" >
+        <action
+            android:id="@+id/action_finalizarPedidoFragment_to_listaPizzasFragments"
+            app:destination="@id/listaPizzasFragments" />
+    </fragment>
+</navigation>
