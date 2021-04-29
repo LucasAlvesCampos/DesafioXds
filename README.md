@@ -1,8 +1,8 @@
-# DesafioPizza
+# Desafio XDS - PizzaAPP
 
-Aplicativo desenvolvido em Kotlin para o desafio da Xds
+Aplicativo desenvolvido em Kotlin para o desafio da XDS
 
-Aplicativo Android nativo de uma pizzaria com as seguintes funções:
+Aplicativo Android nativo de uma pizzaria com as seguintes funcionalidades:
 
 - Login com autenticação no servidor
 
