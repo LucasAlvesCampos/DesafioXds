@@ -12,7 +12,7 @@ Aplicativo Android nativo de uma pizzaria com as seguintes funções:
 
 - Checkout das pizzas
 
-Frameworks e bibliotecas utilizados:
+Frameworks,bibliotecas e plugins utilizados:
 
 - retrofit2
 
