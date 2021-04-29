@@ -8,7 +8,7 @@ Aplicativo Android nativo de uma pizzaria com as seguintes funcionalidades:
 
 - Listagem de pizzas recebidas via web
 
-- Busca instantanea de sabores
+- Busca instantânea de sabores
 
 - Checkout das pizzas
 
